@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package pb;
+option go_package="./pb";
+
+message TestObj {
+  int32 id = 1;
+  string name = 2;
+}
