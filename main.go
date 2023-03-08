@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"protobuf-testing/pb"
+	"github.com/MatejaMaric/protobuf-testing/pb"
 
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/encoding/prototext"
