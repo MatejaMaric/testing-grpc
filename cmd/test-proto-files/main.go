@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/MatejaMaric/protobuf-testing/pkg/pb"
 	"log"
 	"os"
-	"github.com/MatejaMaric/protobuf-testing/pkg/pb"
 
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/encoding/prototext"
@@ -23,9 +23,9 @@ const (
 func main() {
 	log.Println("Started Protobuf test...")
 
-	obj := &pb.TestObj{
-		Id:   1,
-		Name: "Test",
+	obj := &pb.Person{
+		Name:        "Test",
+		DateOfBirth: 1990,
 	}
 
 	if err := ProtobufToFile(ProtoWire, "protowire_test_file", obj); err != nil {
