@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package pb;
-option go_package="github.com/MatejaMaric/protobuf-testing/pb";
+option go_package="github.com/MatejaMaric/protobuf-testing/pkg/pb";
 
 message TestObj {
   int32 id = 1;
