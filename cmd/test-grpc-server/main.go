@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/MatejaMaric/protobuf-testing/pkg/pb"
+	"github.com/MatejaMaric/testing-grpc/pkg/pb"
 	"google.golang.org/grpc"
 )
 

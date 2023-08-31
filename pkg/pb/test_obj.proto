@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package pb;
-option go_package="github.com/MatejaMaric/protobuf-testing/pkg/pb";
+option go_package="github.com/MatejaMaric/testing-grpc/pkg/pb";
 
 message Person {
   string name = 1;

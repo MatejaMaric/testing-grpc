@@ -1,4 +1,4 @@
-module github.com/MatejaMaric/protobuf-testing
+module github.com/MatejaMaric/testing-grpc
 
 go 1.19
 

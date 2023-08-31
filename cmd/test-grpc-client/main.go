@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/MatejaMaric/protobuf-testing/pkg/pb"
+	"github.com/MatejaMaric/testing-grpc/pkg/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

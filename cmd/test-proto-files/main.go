@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/MatejaMaric/protobuf-testing/pkg/pb"
+	"github.com/MatejaMaric/testing-grpc/pkg/pb"
 	"log"
 	"os"
 
