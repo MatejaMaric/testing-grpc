@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package pb;
+
+import "google/api/annotations.proto";
+
+option go_package = "github.com/MatejaMaric/testing-grpc/pkg/pb";
+
+message Person {
+  string name = 1;
+  uint32 date_of_birth = 2;
+}
+
+message Msg {
+  uint32 age = 1;
+}
+
+service Messenger {
+  rpc GetAge(Person) returns (Msg) {
+    option (google.api.http) = {
+      post: "/v1/get-age"
+      body: "*"
+    };
+  }
+}
