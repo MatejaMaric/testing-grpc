@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/MatejaMaric/testing-grpc/pkg/pb"
 	"log"
 	"os"
+
+	"github.com/MatejaMaric/testing-grpc/pkg/pb"
 
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/encoding/prototext"

@@ -1,4 +1,4 @@
 *_test_file
-test-proto-files
-test-grpc-server
-test-grpc-client
+cmd/client/client
+cmd/protobuf/protobuf
+cmd/server/server
